@@ -1,0 +1,6 @@
+git config --global alias.l 'log --graph --all --pretty=format:"%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset"'
+git config --global alias.alias '!git config --list | grep "alias\." | sed "s/alias\.\([^=]*\)=\(.*\)/\1\  => \2/" | sort'
+git config --global alias.gr 'log --graph --pretty=format:"%Cred%h %Cblue%ar %Cgreen%an%Creset %s %Cred%d"'
+git config --global alias.co 'checkout'
+git config --global alias.br 'branch'
+git config --global alias.st 'status --short --branch'
